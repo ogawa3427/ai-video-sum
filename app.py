@@ -47,7 +47,7 @@ def extract_key_timestamps(subtitles: List[Dict[str, str]], api_key: str) -> Lis
     try:
         # GPT-4に重要な部分を選択させる
         response = client.chat.completions.create(
-            model="gpt-4",
+            model="gpt-4o",
             messages=[
                 {"role": "system", "content": "以下の字幕から、動画の主要なポイントを含む重要なタイムスタンプのみを選択してください。選択は10個程度に抑えてください。"},
                 {"role": "user", "content": json.dumps(subtitles, ensure_ascii=False)}
