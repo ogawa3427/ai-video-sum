@@ -5,3 +5,5 @@
 english
 this repository is an application that summarizes videos using only GPT.
 Therefore, I think that only summaries of videos with low motion=low priority visual information, such as podcasts, can be made.
+
+MIT License
