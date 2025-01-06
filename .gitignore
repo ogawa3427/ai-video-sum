@@ -1,1 +1,6 @@
 /avs/
+env.py
+summarized_timestamps.json
+timestamps.json
+*.mp4
+*.pyc
