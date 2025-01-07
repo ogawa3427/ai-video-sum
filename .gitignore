@@ -6,3 +6,8 @@ timestamps.json
 *.pyc
 =*
 gui.json
+/ImageMagick/
+*.json
+Gen.ttf
+*.mp3
+*.txt
